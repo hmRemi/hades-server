@@ -16,6 +16,6 @@ public class Launch {
         System.setProperty("file.encoding", "UTF-8");
 
         // Start the server
-        new Server().start();
+        new Server(args).start();
     }
 }
