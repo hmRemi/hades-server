@@ -14,7 +14,7 @@ import java.net.Socket;
  * @date 5/27/2023
  */
 
-public class SocketServer {
+public class SocketServer extends Thread{
 
     public final Server server;
     public final Socket socket;

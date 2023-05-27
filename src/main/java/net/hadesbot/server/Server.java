@@ -44,7 +44,7 @@ public class Server {
             while (!Thread.currentThread().isInterrupted()) {
                 try {
                     Socket socket = serverSocket.accept();
-                    new SocketServer(this, socket);
+                    new SocketServer(this, socket).start();
                 } catch (IOException exception) {
                     System.err.println("Connection error (IO Exception - A): " + exception.getMessage() + " | " + exception.getCause().toString());
                 }
