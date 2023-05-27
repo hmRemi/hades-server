@@ -10,6 +10,7 @@ import net.hadesbot.server.cli.Configuration;
  * @project Hades
  * @date 5/27/2023
  */
+
 public class Server {
 
     public Server(final String[] args) {

@@ -1,13 +1,13 @@
 package net.hadesbot.server.cli;
 
+import java.util.Arrays;
+import java.util.concurrent.atomic.AtomicReference;
+
 /**
  * @author Hades Development
  * @project Hades
  * @date 5/27/2023
  */
-
-import java.util.Arrays;
-import java.util.concurrent.atomic.AtomicReference;
 
 /**
  * A utility class to parse and process command-line arguments into a configuration object.

@@ -9,6 +9,7 @@ import net.hadesbot.server.Server;
  * @project Hades
  * @date 5/27/2023
  */
+
 public class Launch {
 
     public static void main(final String[] args) {

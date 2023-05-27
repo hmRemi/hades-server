@@ -1,13 +1,13 @@
 package net.hadesbot.server.cli;
 
+import java.util.Map;
+import java.util.concurrent.ConcurrentHashMap;
+
 /**
  * @author Hades Development
  * @project Hades
  * @date 5/27/2023
  */
-
-import java.util.Map;
-import java.util.concurrent.ConcurrentHashMap;
 
 /**
  * A class to store and retrieve configuration values.
